@@ -1,3 +1,31 @@
-/* 
-    General Styles
-*/
+body {
+    background-color: black;
+    color:white;
+  }
+  .my-carousel {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+  }
+  .my-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 300px;
+    margin-right: 15px;
+  }
+  .my-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  .my-body-text {
+    padding: 15px;
+  }
+  
+  .my-footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
